@@ -4,7 +4,7 @@ const app= express();
 const server =require("http").createServer(app);
 
 const io=require("socket.io")(server);
-const port=process.env.PORT || 5000
+const port=process.env.PORT || 5000;
 
 
 
